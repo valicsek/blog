@@ -1,15 +1,18 @@
 <template lang="pug">
-    section
+    section(class='px-4 md:px-0')
         Nav
-        Content.min-h-screen.max-w-6xl.mx-auto.py-5
+        Content.min-h-screen.max-w-4xl.mx-auto.py-5
         Footer
 </template>
 
 <style lang="stylus">
 @import '../styles/theme.styl';
 
-html,body {
-    @apply text-white;
-    background: #1e1e1e;
+h1,h2,h3 {
+    @apply mb-4;
+}
+
+p {
+    @apply pb-4;
 }
 </style>

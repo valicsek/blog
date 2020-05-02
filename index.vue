@@ -1,8 +1,9 @@
 <template lang="pug">
     div
         Nav
-        section.min-h-screen.max-w-6xl.mx-auto.py-5
-            h1 Create a website using pinoccio
+        section.min-h-screen.max-w-4xl.mx-auto.py-5
+            h1 Lorem ipsum
+            p Lorem ipsum
         Footer
 </template>
 <script>
