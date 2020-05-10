@@ -1,6 +1,6 @@
 <template lang="pug">
-    section.py-5
-        div.max-w-4xl.mx-auto
+    footer
+        div.max-w-5xl.mx-auto.py-5.px-5.bg-black.text-white
             ul
                 li
                     a(href='/') Link 1

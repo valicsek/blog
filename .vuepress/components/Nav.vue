@@ -1,6 +1,5 @@
 <template lang="pug">
-    section.py-5.font-bold
-        div.max-w-4xl.mx-auto
+    section
+        div.py-5.px-5.max-w-5xl.mx-auto.bg-black.text-white.font-bold.text-center(class="lg:text-left")
             a(href='/').mr-5.cursor-pointer Home
-            a(href='/blog').mr-5.cursor-pointer Blogs
 </template>
